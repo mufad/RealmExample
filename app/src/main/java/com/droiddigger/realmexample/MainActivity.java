@@ -2,6 +2,10 @@ package com.droiddigger.realmexample;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
+import android.widget.Toast;
+
+import io.realm.Realm;
 
 public class MainActivity extends AppCompatActivity {
     private Realm realm;
